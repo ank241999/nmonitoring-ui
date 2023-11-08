@@ -8,6 +8,7 @@ pipeline {
      stages {
         stage('Install npm Packages') {
             steps {
+                sh "id"
                 sh "npm install"
             }
         }
